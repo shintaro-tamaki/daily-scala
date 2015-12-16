@@ -14,11 +14,11 @@
 ## Scala Collection APIを知る
 - 大事な情報源
  - 公式のCollection解説
-  - http://docs.scala-lang.org/ja/overviews/collections/introduction.html
+   - http://docs.scala-lang.org/ja/overviews/collections/introduction.html
  - ひしだまさんメモ（コレクションのメソッド一覧見やすい）
-  - http://www.ne.jp/asahi/hishidama/home/tech/scala/collection/method.html
+   - http://www.ne.jp/asahi/hishidama/home/tech/scala/collection/method.html
  - Scala逆引きレシピ
-  - P.178～P.233
+   - P.178～P.233
 
 ## Scala Collection 概要
 - 大きく2種類
@@ -52,12 +52,11 @@
  - mkString
 
 ## FizzBuzzルール
-1 から 100まで
-3の倍数: Fizz
-5の倍数: Buzz
-3の倍数かつ５の倍数: FizzBuzz
-それ以外 はその数字（1,2など）
-を出力する
+1 から 100まで<br>
+3の倍数: Fizz<br>
+5の倍数: Buzz<br>
+3の倍数かつ５の倍数: FizzBuzz<br>
+それ以外 はその数字（1,2など）を出力する
 
 ```
 出力例
