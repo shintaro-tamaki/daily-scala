@@ -58,6 +58,12 @@ class NNP10Spec extends FunSpec with Matchers with NNP10 {
       }
     }
 
+    describe("P072") {
+      it("Flatten a nested list structure.") {
+        flatten(List(List(1, 1), 2, List(3, List(5, 8,List(9, 99))),100)) should be (List(1, 1, 2, 3, 5, 8,9,99,100))
+      }
+    }
+
     // P08 (**) Eliminate consecutive duplicates of list elements.
     // If a list contains repeated elements they should be replaced with a single copy of the element.
     // The order of the elements should not be changed.
